@@ -2,7 +2,12 @@
 """Defines an abstracted FileStorage class."""
 import json
 from os.path import isfile
-from base_model import BaseModel
+from models.base_model import BaseModel
+from models.state import State
+from models.city import City
+from models.place import Place
+from models.amenity import Amenity
+from models.review import Review
 
 class FileStorage:
     """This represents an abstracted storage engine.
